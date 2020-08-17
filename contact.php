@@ -1,6 +1,6 @@
 <?php
 	// ========== Enter your email address here ========== //
-	$to = "erikalvarbass@gmail.com";
+	$to = "erikalvar@icloud.com";
 	
 	// Clean up the input values
 	foreach($_POST as $key => $value) {
