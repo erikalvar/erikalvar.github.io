@@ -58,7 +58,7 @@
 							<ul class="nav navbar-nav float-right">
 								<li><a href="#about" class="scroll-to" data-anchor-offset="0">About</a></li>
 								<li><a href="#skills" class="scroll-to" data-anchor-offset="0">Skills</a></li>
-								<li><a href="#projects" class="scroll-to" data-anchor-offset="0">Projects</a></li>
+								<li><a href="#portfolio" class="scroll-to" data-anchor-offset="0">Portfolio</a></li>
 								<li><a href="#contact-form" class="scroll-to" data-anchor-offset="0">Contact</a></li>
 								<li><a href="music.html">Music</a></li>
 							</ul><!-- /.nav -->
@@ -151,13 +151,13 @@
 				</div><!-- /.container -->
 			</section>
 			
-			<section id="projects" class="">
+			<section id="portfolio" class="">
 				<div class="container inner">
 					
 					<div class="row">
 						<div class="col-lg-8 col-md-9 mx-auto text-center">
 							<header>
-								<h1>Projects</h1>
+								<h1>Portfolio</h1>
 								<p></p>
 							</header>
 						</div><!-- /.col -->
@@ -167,6 +167,7 @@
 						<div class="col-md-12">
 							<div id="owl-work-samples" class="owl-carousel owl-item-gap">
 								
+								<!-- Project 1 -->
 								<div class="item">
 									<figure>
 									
@@ -179,6 +180,25 @@
 												<h4><a href="#modal-work02" data-toggle="modal">Acoustic Music NYC</a></h4>
 												<p>An interactive music calendat web app.</p>
 												<a href="http://www.acousticmusicnyc.com" target="_blank">acousticmusicnyc.com</a>
+											</div><!-- /.info -->
+										</figcaption>
+										
+									</figure>
+								</div><!-- /.item -->
+
+								<!-- project 2 -->
+								<div class="item">
+									<figure>
+									
+										<div class="icon-overlay icn-link">
+											<a href="#modal-work03" data-toggle="modal"><img src="assets/images/movie_index.png" alt=""></a>
+										</div><!-- /.icon-overlay -->
+										
+										<figcaption class="bordered no-top-border">
+											<div class="info">
+												<h4><a href="#modal-work03" data-toggle="modal">Movie-Rater</a></h4>
+												<p>A movie rating app that pulls from IMDB API</p>
+												<a href="https://evening-hamlet-48915.herokuapp.com/" target="_blank">https://evening-hamlet-48915.herokuapp.com/</a>
 											</div><!-- /.info -->
 										</figcaption>
 										
@@ -208,6 +228,7 @@
 				</div><!-- /.container -->
 			</section>
 
+			<!-- procect 1 -->
 			<div class="modal fade" id="modal-work02" tabindex="-1" role="dialog" aria-labelledby="modal-work02" aria-hidden="true">
 				<div class="modal-dialog modal-lg">
 					<div class="modal-content">
@@ -276,6 +297,8 @@
 												<li class="date">August, 2020</li>
 												<li class="categories">VueJS, Ruby, Rails, Bootstrap</li>
 												<li class="url"><a href="http://www.acousticmusicnyc.com" target="_blank">acousticmusicnyc.com</a></li>
+												<li class="url"><a href="https://github.com/erikalvar/acoustic-music-nyc" target="_blank">Github Backend</a></li>
+												<li class="url"><a href="https://github.com/erikalvar/acoustic-music-nyc-vue" target="_blank">Github Frontend</a></li>
 											</ul><!-- /.item-details -->
 										</div><!-- /.col -->
 										
@@ -284,6 +307,96 @@
 								</div><!-- /.container -->
 								
 							</section>
+
+							
+							
+							<!-- ============================================================= SECTION – PORTFOLIO POST : END ============================================================= -->
+							
+						</div><!-- /.modal-body -->
+						
+						<!-- ============================================================= MODAL CONTENT : END ============================================================= -->
+						
+						<div class="modal-footer">
+							<button type="button" class="btn" data-dismiss="modal">Close</button>
+						</div><!-- /.modal-footer -->
+						
+					</div><!-- /.modal-content -->
+				</div><!-- /.modal-dialog -->
+			</div>
+
+			<!-- project 2 -->
+			<div class="modal fade" id="modal-work03" tabindex="-1" role="dialog" aria-labelledby="modal-work02" aria-hidden="true">
+				<div class="modal-dialog modal-lg">
+					<div class="modal-content">
+						
+						<div class="modal-header">
+							<h4 class="modal-title" id="modal-work03">Movie-Rater</h4>
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="icon-cancel-1"></i></span></button>
+						</div><!-- /.modal-header -->
+						
+						<!-- ============================================================= MODAL CONTENT ============================================================= -->
+						
+						<div class="modal-body">
+							
+							<!-- ============================================================= SECTION – PORTFOLIO POST ============================================================= -->
+							
+							<section id="portfolio-post">
+								<div class="container inner-top-xs inner-bottom">
+									
+									<div class="row">
+										<div class="col-md-12">
+											<div id="owl-work-modal02" class="owl-carousel owl-inner-pagination owl-inner-nav owl-ui-lg">
+												
+												<div class="item">
+													<figure>
+														<img src="assets/images/movie_index.png" alt="">
+													</figure>
+												</div><!-- /.item -->
+												
+												<div class="item">
+													<figure>
+														<img src="assets/images/movie_search.png" alt="">
+													</figure>
+												</div><!-- /.item -->
+										
+											</div><!-- /.owl-carousel -->
+										</div><!-- /.col -->
+									</div><!-- /.row -->
+									
+									<div class="row">
+										
+										<div class="col-md-7 inner-top-xs inner-right-xs">
+											<header>
+												<h2>Acoustic Music NYC</h2>
+												<p class="text-normal">
+													This is a movie rating app built as practice for a technical interview. It uses a Ruby on Rails backend that calls from a movie API hosted on RapidAPIs. Movies are added to the database by searching the API by title and clicking on a movie instance. You are then pushed to the movies show page where you can thumbs up or down a movie. The home page displays all the movies that have been added to the database ordered by thumbs ups.
+												</p>
+												<p class="text-normal">
+
+												</p>
+												<p></p>
+												<p></p>
+												<p></p>
+											</header>
+										</div><!-- /.col -->
+										
+										<div class="col-md-4 offset-md-1 outer-top-xs inner-left-xs border-left">
+											<ul class="item-details">
+												<li class="date">August, 2020</li>
+												<li class="categories">VueJS, Ruby, Rails, Bootstrap</li>
+												<li class="url"><a href="https://evening-hamlet-48915.herokuapp.com/" target="_blank">evening-hamlet-48915.herokuapp.com/</a></li>
+												<li class="url"><a href="https://github.com/erikalvar/practice-movie-api" target="_blank">Github Backend</a></li>
+												<li class="url"><a href="https://github.com/erikalvar/practice-movie-api-vue" target="_blank">Github Frontend</a></li>
+											</ul><!-- /.item-details -->
+										</div><!-- /.col -->
+										
+									</div><!-- /.row -->
+									
+								</div><!-- /.container -->
+								
+							</section>
+
+							
 							
 							<!-- ============================================================= SECTION – PORTFOLIO POST : END ============================================================= -->
 							
